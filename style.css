@@ -3,11 +3,12 @@
     flex-wrap: wrap;
 }
 .card {
-    width: 400px;
-    min-height: 100px;
-    background-color: white;
+    width: 450px;
+    min-height: 150px;
     border: 1px  solid gray;
     margin: 16px;
+    display: flex;
+    background-color: blue;
 }
 .name {
     font-weight: bold;
@@ -17,9 +18,8 @@
     color: gray;
 }
 .avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 1000px;
+    width: 100px;
+    height: 150px;
 }
 .info {
     display:flex;
@@ -39,13 +39,13 @@
 .email {
     border-right: 1px solid grey;
 }
-.card {
-    width: 400px;
-    min-height: 100px;
-    background-color: white;
-    border: 1px solid grey;
-    border-radius: 8px;
-}
+/*.card {*/
+/*    width: 400px;*/
+/*    min-height: 100px;*/
+/*    background-color: white;*/
+/*    border: 1px solid grey;*/
+/*    border-radius: 8px;*/
+/*}*/
 .card {
     /* add shadows to create the "card" effects*/
     box-shadow: 0 4px 8px;
@@ -58,4 +58,10 @@
 .button:hover {
     background-color: black;
     color: white;
+}
+body {
+    background-color: red;
+}
+h1 {
+    color: blue;
 }
