@@ -9,6 +9,7 @@
     margin: 16px;
     display: flex;
     background-color: blue;
+    position: relative;
 }
 .name {
     font-weight: bold;
@@ -64,4 +65,9 @@ body {
 }
 h1 {
     color: blue;
+}
+.emoji {
+    position: absolute;
+    right: 0;
+    z-index: 10;
 }
