@@ -71,3 +71,15 @@ h1 {
     right: 0;
     z-index: 10;
 }
+.georgia {
+    font-family: "Georgia";
+}
+.sofia{
+    font-family: "Sofia", sans-serif;
+}
+.acne {
+    font-family: "Ance", sans-serif;
+}
+.lucisa {
+    font-family: "Lucida Console"; lucida, monospace
+}
